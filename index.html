@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime Digital Studio - Agência de Desenvolvimento Web</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- ScrollReveal -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <header class="navbar navbar-expand-lg ">
+        <div class="container">
+            <!-- logo -->
+            <a class="navbar-brand" href="#home">
+                <img src="assets/logo.svg" alt="Logo Prime Digital Studio" class="logo">
+            </a>
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <i class="fas fa-bars" style="color: var(--primary-green);"></i>
+            </button>
+
+            <nav class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#process">Processo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+    <main >
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="row align-items-center hero-infos">
+                    <div class="col-lg-6 info-hero">
+                        <div class="hero-content fade-in">
+                            <h1>Transformamos <span class="highlight">Ideias</span> Experiências <span
+                                    class="highlight">Digitais</span></h1>
+                            <p>Nada de WordPress! Websites modernos, responsivos e otimizados com codigos! que elevam
+                                sua marca e geram resultados reais para seu negócio.</p>
+                            <a href="https://www.instagram.com/primedigital.studio" class="btn btn-primary-custom" target="_blank" noopenner noreferrer>
+                                <i class="fas fa-rocket me-2"></i>Começar Projeto
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="hero-image slide-right">
+                            <img src="assets/Hero-image.png" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+
+        <section class="services" id="services">
+            <div class="swiper mySwiper container">
+                <h2 class="section-title">O que posso fazer por você?</h2>
+                <div class="service-cards swiper-wrapper">
+                    <div class="swiper-slide ">
+                        <div class="service-card">
+                            <!-- icone -->
+                            <i class="fas fa-code service-icon"></i>
+                            <h3 class="title-card">Landing Pages</h3>
+                            <p>Criação de páginas rápidas, objetivas e otimizadas para conversão. Ideal para campanhas,
+                                lançamentos de produtos ou captação de leads.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="service-card">
+                            <!-- icone -->
+                            <i class="fas fa-laptop-code service-icon"></i>
+                            <h3 class="title-card">Sites Institucionais</h3>
+                            <p>Desenvolvimento de sites profissionais para apresentar sua empresa, serviços e
+                                diferenciais de forma clara, moderna e responsiva, valorizando sua marca no ambiente
+                                digital.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="service-card">
+                            <!-- icone -->
+                            <i class="fas fa-mobile-alt service-icon"></i>
+                            <h3 class="title-card">Responsividade</h3>
+                            <p>Sites responsivos para dispositivos móveis nativos e híbridos para Android e iOS.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="service-card">
+                            <!-- icone -->
+                            <i class="fas fa-palette service-icon"></i>
+                            <h3 class="title-card">Identidade Visual</h3>
+                            <p>Layouts únicos, pensados para refletir a identidade visual do seu negócio e proporcionar
+                                uma navegação intuitiva e agradável.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="service-card">
+                            <!-- icone-->
+                            <i class="fas fa-tools service-icon"></i>
+                            <h3 class="title-card">Manutenção e Atualizações</h3>
+                            <p>Oferecemos suporte técnico, melhorias contínuas e atualizações para manter seu site
+                                sempre rápido, seguro e atualizado.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+
+        <!-- processo -->
+        <section class="process" id="process">
+        <div class="container">
+            <h2 class="section-title">Nosso Processo</h2>
+            <p class="section-subtitle">
+                Seguimos um processo estruturado e transparente para garantir que cada projeto seja entregue com excelência e dentro do prazo estabelecido.
+            </p>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-lightbulb"></i>
+                        <div class="step-number">1</div>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>
+                            <span class= "highlight">Briefing</span>
+                        </h3>
+                        <p>
+                            Conversamos com você para entender suas necessidades, objetivos e preferências. Essa etapa é essencial para alinhar expectativas e definir a melhor estratégia para o seu projeto.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-pencil-ruler"></i>
+                        <div class="step-number">2</div>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>
+                            <span class= "highlight">Design</span>
+                        </h3>
+                        <p>
+                            Com base nas informações coletadas, planejamos a estrutura do site e criamos o layout visual, sempre priorizando usabilidade, identidade visual e experiência do usuário.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-code"></i>
+                        <div class="step-number">3</div>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>
+                            <span class= "highlight">Desenvolvimento</span>
+                        </h3>
+                        <p>
+                            Transformamos o layout aprovado em um site funcional, responsivo e otimizado para todos os dispositivos. Utilizamos as melhores práticas de desenvolvimento para garantir desempenho e segurança.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-check-circle"></i>
+                        <div class="step-number">4</div>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>
+                            <span class= "highlight">Testes</span>
+                        </h3>
+                        <p>
+                            Realizamos testes rigorosos para garantir que tudo esteja funcionando perfeitamente. Você também terá a oportunidade de revisar o site e solicitar ajustes.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-rocket"></i>
+                        <div class="step-number">5</div>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>
+                            <span class= "highlight">Entrega</span>
+                        </h3>
+                        <p>
+                            Após a aprovação final, lançamos o site no ar! Fornecemos todas as orientações necessárias para que você possa gerenciar seu novo site com facilidade.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-headset"></i>
+                        <div class="step-number">6</div>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>
+                            <span class= "highlight">Suporte</span> e Manutenção
+                        </h3>
+                        <p>
+                            Após a entrega, oferecemos suporte de até 3 meses para possíveis atualizações, melhorias e ajustes, mantendo seu site sempre atual e eficiente.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- about -->
+
+        <section class="about" id="about">
+            <div class="container">
+                <h2 class="section-title">Sobre</h2>
+                <div class="row align-items-center">
+                    <!-- <div class="col-lg-6 about-image slide-left">
+                        <img src="assets/about-image.png" alt="Sobre Nós" class="img-fluid">
+                    </div> -->
+                    <div class="about-content fade-in">
+                        <p>
+                            Olá! Me chamo<span class="highlight"> Carlos</span>. Atuo no desenvolvimento
+                            de sites e soluções web, sempre com o objetivo de conectar marcas e pessoas através de
+                            experiências digitais bem planejadas.
+
+                            Atualmente, estou no último ano da faculdade de Engenharia de Software e já conto com
+                            experiência na criação de sites institucionais, landing pages e páginas responsivas.
+                            Seja para apresentar sua empresa, divulgar seus serviços ou criar presença online, meu foco
+                            é sempre oferecer um site leve, moderno e otimizado para todos os dispositivos.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 footer-copy">
+                    <p>&copy; 2025 Prime Digital Studio. Todos os direitos reservados.</p>
+                </div>
+                <div class="col-md-6 footer-links">
+                    <a href="#home" class="footer-link">Início</a>
+                    <a href="#services" class="footer-link">Serviços</a>
+                    <a href="#process" class="footer-link">Processo</a>
+                    <a href="#about" class="footer-link">Sobre</a>
+                    <a href="#contact" class="footer-link">Contato</a>
+                </div>
+
+                <div class="footer-socials">
+
+                    <p>Quer começar um projeto? Siga nas redes sociais e chame do DM</p>
+
+                    <div class="footer-social-icons">
+                        <a href="" target="_blank" class="footer-social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="" target="_blank" class="footer-social-link">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="" target="_blank" class="footer-social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div  class="scrollToTopButton">
+        <a href="#home" class="scroll-to-top">
+            <i class="fas fa-arrow-up"></i>
+        </a>
+    </div>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="js/script.js"></script>
+<script src="js/swiper.js"></script>
+<script src="js/scrollreveal.js"></script>
+
+
+</html>
